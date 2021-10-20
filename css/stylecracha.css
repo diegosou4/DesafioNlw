@@ -1,0 +1,121 @@
+/* Cascating Stylesheet */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #E1E1E6;
+}
+
+body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        background: url('/img/bg-img.svg')
+}
+
+
+h1 {
+  font-size: 1.5rem;
+}
+
+a {
+    color: #E1E1E6;
+  text-decoration: none;
+}
+
+p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 8px;
+}
+h1 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+a {
+    font-size: 14px;
+    line-height: 26px;
+}
+.cardBig {
+
+    height: 680px;
+    width: 358px;
+    background: url('/img/bg-cardbig.png');
+}
+
+
+.card-bg {
+    
+    background: url('/img/bg-card.svg');
+    width: 375px;
+    height: 812px;
+
+}
+
+.container {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+
+}
+
+.avatarBig span {
+    position: absolute;
+    margin-top: -15px;
+    z-index: 1
+}
+
+
+.avatarBig > img {
+    width: 10rem;
+    height: 11.5rem;
+
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    object-fit: cover;
+
+
+}
+
+
+.socialMediabig ul {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+     list-style: none;
+}
+ 
+.socialMediabig li {
+     flex-wrap: wrap;
+     margin: 10px;
+}
+
+
+
+.avatarBig {
+    width: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 211px;
+    position: relative;
+}
+
+
+
+.infosBig {
+    text-align: center ;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
